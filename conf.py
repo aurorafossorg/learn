@@ -14,6 +14,7 @@ from recommonmark.parser import CommonMarkParser
 DOC_SOURCES_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT_DIR = os.path.dirname(os.path.dirname(DOC_SOURCES_DIR))
 sys.path.insert(0, DOC_SOURCES_DIR)
+print('DOC_SOURCES_DIR', DOC_SOURCES_DIR)
 print('PROJECT_ROOT_DIR', PROJECT_ROOT_DIR)
 
 # -- Project information -----------------------------------------------------
@@ -85,7 +86,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if on_rtd:
     print('Fetching files with git_lfs')
     from git_lfs import fetch
-    fetch(PROJECT_ROOT_DIR)
+    fetch(DOC_SOURCES_DIR)
 
 
 import sphinx_rtd_theme
