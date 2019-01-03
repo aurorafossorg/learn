@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: aurorafossorg-learn\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-27 16:22+0000\n"
-"PO-Revision-Date: 2019-01-02 23:12\n"
+"PO-Revision-Date: 2019-01-03 00:06\n"
 "Last-Translator: ljmf00 <lsferreira169@gmail.com>\n"
 "Language-Team: Portuguese\n"
 "MIME-Version: 1.0\n"
@@ -18,13 +18,13 @@ msgstr ""
 
 #: ../../index.rst:7
 msgid "Welcome to Aurora FOSS Learning Platform's documentation!"
-msgstr ""
+msgstr "Bem-vindo à documentação do Aurora FOSS Learning Platform!"
 
 #: ../../index.rst:16
 msgid "Indices and tables"
-msgstr ""
+msgstr "Índices e tabelas"
 
 #: ../../index.rst:18
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref: `genindex`"
 
