@@ -221,6 +221,7 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 todo_include_todos = True
 
 locale_dirs = ['locale/sphinx/po']
+gettext_uuid = True
 gettext_compact = False
 # Exclude class reference when marked with tag i18n.
 if tags.has('i18n'):
